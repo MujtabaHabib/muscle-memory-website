@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2933;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.list li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.details {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    background-image: url(first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.details button {
+    height: 50px;
+    width: 120px;
+}
+
+.details h1,
+.details h3,
+.details p,
+.details button {
+    padding: 10px 15px 10px;
+    
+}
+
+.details p {
+    font-size: 18px;
+    justify-content: center;
+}
+.details button{
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    background-color:rgb(28, 182, 179);
+    border-radius: 10px;
+    color:white;
+    font-weight:bold ;
+    border-color: black;
+}
+.details button:hover{
+    background-color: rgb(30, 160, 30);
+    color:white;
+}
+hr {
+    border: none;
+    border-top: 2px solid #000000;
+    width: 10%;
+    margin: 20px auto;
+    align-items: flex-start;
+}
+
+.box {
+    display: flex;
+    jsut--: space-between;
+    color: white;
+
+}
+
+.message {
+
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    background-color: #1f2933;
+
+}
+
+.message h1,
+.message h4,
+.message p {
+
+    padding: 10px 15px 30px;
+}
+
+.message button{
+    padding: 10px 15px 10px;
+    background-color: rgb(236, 172, 24);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    border: #1f2933;
+    
+}
+
+.message button:hover{
+    background-color: green;
+    color: white;
+    
+}
+footer{
+    background-color: #0a151f;
+    padding: 10px 15px 10px;
+    height: 50px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-image img {
+    object-fit: cover;
+}

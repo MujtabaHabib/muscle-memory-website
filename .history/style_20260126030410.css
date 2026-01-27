@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: ;
+    margin-left: 10px;
+}
